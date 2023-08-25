@@ -1,7 +1,6 @@
 package taller3.televisores;
 
 public class TV {
-
     private Marca marca;
     private int canal = 1;
     private int precio = 500;
@@ -48,7 +47,7 @@ public class TV {
             }
         }
     }
-    
+
     public int getCanal(){
         return this.canal;
     }
@@ -85,7 +84,6 @@ public class TV {
             }
         }
     }
-    
     public void canalDown(){
         if (this.estado == true){
             if (this.canal > 1 && this.canal <= 120){
@@ -107,5 +105,5 @@ public class TV {
                 this.canal--;
             }
         }
-    }	
+    }
 }
