@@ -37,5 +37,9 @@ public class Control {
 
     public TV getTv(){
         return this.tv;
+    }
+    
+    public void setTv(TV tv){
+        this.tv = tv;
     }  
 }
